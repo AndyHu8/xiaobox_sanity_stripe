@@ -39,8 +39,23 @@ export default {
             type: "number",
         },
         {
-            name: "details",
-            title: "Details",
+            name: "beschreibung",
+            title: "Beschreibung",
+            type: "string"
+        },
+        {
+            name: "geschlecht",
+            title: "Geschlecht",
+            type: "string"
+        },
+        {
+            name: "farbe",
+            title: "Farbe",
+            type: "string"
+        },
+        {
+            name: "material",
+            title: "Material",
             type: "string"
         }
     ]
