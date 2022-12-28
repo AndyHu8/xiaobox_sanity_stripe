@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState } from "react";
 import { toast } from 'react-hot-toast';
 
 const Context = createContext();
@@ -7,6 +7,8 @@ const Context = createContext();
 export const StateContext = ({ children }) => {
     //Zeige Cart oder nicht
     const [showCart, setShowCart] = useState(false);
+    //Zeige Impressum oder nicht
+    const [showImpressum, setShowImpressum] = useState(false);
     //Einkaufswagen (alle Produkte im Wagen als Array)
     const [cartItems, setCartItems] = useState([]);
     //Endsumme
@@ -119,6 +121,7 @@ export const StateContext = ({ children }) => {
         <Context.Provider
         value={{
             showCart,
+            showImpressum,
             cartItems,
             totalPrice,
             totalQuantities,
@@ -127,6 +130,7 @@ export const StateContext = ({ children }) => {
             decreaseQty,
             onAdd,
             setShowCart,
+            setShowImpressum,
             toggleCartItemQuantity,
             onRemove,
             setCartItems,
