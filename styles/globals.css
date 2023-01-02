@@ -607,6 +607,23 @@ margin-top: 160px;
   margin-top: 10px;
 }
 
+.support-container {
+  margin-top: 120px;
+}
+
+.support-container h1 {
+  text-align: center;
+}
+
+.support-container div {
+  margin-top: 60px;
+  font-size: 18px;
+}
+
+.support-container div p:first-of-type {
+  font-weight: bold;
+}
+
 @media screen and (max-width:1300px) {
   .footer-banner-image {
     display: none;

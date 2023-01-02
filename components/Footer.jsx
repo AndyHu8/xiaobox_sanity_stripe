@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <p>Alle Rechte vorbehalten</p>
-      <p>Designed und entwickelt von Xiaohu 2022</p>
       <p style={{cursor: "pointer"}} onClick={() => setShowImpressum(true)}>Zum Impressum</p>
+      <p>Designed und entwickelt von Xiaohu 2022</p>
       <p className='icons'>
         <AiFillInstagram onClick={() => window.open("https://www.instagram.com/xiaohu_chn")} style={{cursor: "pointer"}}/>
         <AiOutlineTwitter onClick={() => window.open("https://twitter.com/xiaohu_chn")} style={{cursor: "pointer"}}/>
