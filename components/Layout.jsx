@@ -4,7 +4,7 @@ import { Navbar, Footer } from '../components'
 
 const Layout = ({ children }) => { //children = Das was in dem <Layout> gewrapped ist
   return (
-    <div className='layout'>
+    <div>
       <Head>
         <title>Xiaobox</title>
       </Head>
