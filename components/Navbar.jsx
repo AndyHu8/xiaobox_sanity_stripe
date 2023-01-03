@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <p className='logo'>
-        <Link href="/">XIAOBOX</Link>
+        <Link href="/">XIAØBOX</Link>
       </p>
       <button className='cart-icon' type='button' onClick={() => setShowCart(true)}>
         <AiOutlineShopping/>
