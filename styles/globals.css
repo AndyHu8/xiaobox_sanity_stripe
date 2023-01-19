@@ -134,7 +134,8 @@ width: 100%
   position: relative;
   height: auto;
   line-height: 0.9; 
-  width: 100%;
+  width: auto;
+  margin: 0 10px;
 
 }
 .hero-banner-container .beats-solo{
@@ -217,8 +218,10 @@ width: 100%
   height: auto;
   line-height: 1; 
   color: white;
-  width: 100%;
+  width: auto;
   margin-top: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .banner-desc{
   display: flex;
@@ -762,22 +765,29 @@ margin-top: 160px;
 }
 }
 
-
-@media screen and (max-width:700px) {
-  .hero-banner-image{
-    display: none;
-  }
-  .hero-banner-container > div {
-    text-align: center;
-  }
+@media screen and (max-width:680px) {
   .banner-desc {
     justify-content: center;
   }
 }
 
+
 @media screen and (max-width:600px) {
+  .hero-banner-image{
+    display: none;
+  }
+  .hero-banner-container > div {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .banner-desc {
+    justify-content: center;
+  }
   .cart-container {
     width: 100%;
+  }
+  .hero-banner-container button{
+    margin-top: 50px;
   }
 }
 
